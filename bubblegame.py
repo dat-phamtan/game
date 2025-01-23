@@ -50,7 +50,7 @@ ball_pos = np.array([WIDTH/2, HEIGHT/2 - 120], dtype=np.float64)
 #Biến khác
 running = True
 GRAVITY = 0.2 
-ball_vel = np.array([1, -1], dtype=np.float64)
+ball_vel = np.array([-1, -1], dtype=np.float64)
 arc_degrees = 60
 start_angle = math.radians(-arc_degrees/2)
 end_angle = math.radians(arc_degrees/2)
